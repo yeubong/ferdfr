@@ -1,0 +1,175 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto;
+    /* width: 1918px; */
+    /* height: 935px; */
+}
+
+/* common */
+.text-center {
+    text-align: center !important;
+}
+
+.text-tittle {
+    line-height: 600px;
+
+}
+
+.col-third {
+    /* width: calc(100%/3); */
+}
+/* End: common */
+
+.main {
+    display: flex;
+    position: absolute;
+}
+/* Menu */
+.sidebar {
+    width: 10%;
+    /* height: 935px; */
+    background-color: #191718;
+
+}
+
+.mobile-menu-btn {
+    font-size: 38px;
+    position: absolute;
+    height: 50px;
+    padding: 5px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+}
+
+.mobile-menu-btn i:hover {
+    opacity: 0.5;
+}
+
+
+.nav li {
+    height: 44px;
+    display: flex;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.nav li a {
+    text-decoration: none;
+    padding-left: 16px;
+    line-height: 19px;
+    font-size: 16px;
+    padding-top: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* End: menu */
+
+/* Content */
+.content {
+    width: 90%;
+    max-width: 100%;
+    /* height: 935px; */
+    background-color: #fff;
+    text-align: center;
+}
+/* content header */
+.content-header {
+    width: 310px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* content section */
+.content-section {
+    width: 1510px;
+    max-width: 100%;
+    height: 210px;
+    background-color: #EFEFEF;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.content-section h2 {
+    padding-top: 38px;
+    padding-bottom: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.content-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    width: 972px;
+    max-width: 100%;
+    display: inline-block;
+}
+
+/* content product */
+.content-product {
+    display: inline-block;
+    width: 1510px;
+    max-width: 100%;
+    padding-bottom: 183px;
+}
+
+.content-product .row {
+    display: flex;
+    text-align: left;
+}
+
+
+.product-img {
+    float: left;
+    margin-right: 16px;
+}
+
+.col {
+    width: 470px;
+    max-width: 100%;
+}
+
+.row h2 {
+    line-height: 28px;
+    padding-bottom: 18px;
+}
+
+.product-col-mid {
+    margin: 0 50px;
+}
+
+.product-list {
+    line-height: 19px;
+}
+
+
+/* footer */
+.footer {
+    display: flex;
+    height: 79px;
+    border-top: solid 1px rgba(222, 222, 222, 1);
+}
+
+.footer p {
+    line-height: 19px;
+    padding-top: 30px;
+    padding-left: 129px;
+}
+
+
+
+
+
